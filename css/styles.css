@@ -1,0 +1,38 @@
+/*general*/
+*{
+	box-sizing:border-box;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+/*navbar*/
+.navbar{
+	/*background-color: red;*/
+}
+.logo{
+	width: 200px;
+}
+.nav-link{
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+	color: #00287F;
+	font-size: 1.5em;
+	font-weight: 700;
+	position: relative;
+	top: 5.5px;
+}
+.invis-link:hover, .invis-link:focus{
+	text-decoration:none;
+}
+
+/*main picture*/
+#main{
+	padding: 0;
+}
+.main-picture{
+	width:100%;
+	padding:0;
+	margin: 0;
+}
+
