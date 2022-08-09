@@ -7,7 +7,7 @@
 
 /*navbar*/
 .navbar{
-	/*background-color: red;*/
+
 }
 .logo{
 	width: 200px;
@@ -26,6 +26,23 @@
 	text-decoration:none;
 }
 
+/*bottom bar*/
+.fa, .fa-brands {
+  padding: 20px;
+  height:40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.fa:hover, .fa-brands:hover{
+	color: white;
+	opacity: 70%;
+	text-decoration: none;
+}
+.banner-bottom{
+	background-color: #00287F;
+}
 /*main picture*/
 #main{
 	padding: 0;
@@ -35,4 +52,12 @@
 	padding:0;
 	margin: 0;
 }
-
+.about-header{
+	text-align: center;
+}
+.main-photo{
+	width: 100%;
+}
+.about-content{
+	background-image: url("companyphoto.png")
+}
