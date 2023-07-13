@@ -4,7 +4,14 @@
 	font-family: 'Quicksand', sans-serif;
 
 }
-
+:root {
+	--dark-background: #18191c;
+	--text-on-background:#860091;
+	--text-on-navbar:white;
+}
+body{
+  background-color:var(--dark-background);
+}
 /*navbar*/
 .navbar{
 
@@ -12,17 +19,22 @@
 .logo{
 	width: 200px;
 }
+h1{
+	color:var(--text-on-background);
+}
 .nav-link{
 	margin-right: 10px;
 	margin-left: 10px;
 	text-decoration: none;
-	color: #00287F;
+	color: var(--text-on-background);
 	font-size: 1.5em;
 	font-weight: 700;
 	position: relative;
 	top: 5.5px;
 }
 .invis-link:hover, .invis-link:focus{
+	color: var(--text-on-background);
+	filter:brightness(0.7);
 	text-decoration:none;
 }
 
